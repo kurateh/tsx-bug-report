@@ -19,8 +19,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 22
-          cache: 'pnpm' # Cache dependencies for faster builds
-      - name: Install PNPM
+
+      - name: Enable PNPM
         run: |
           corepack enable
 
